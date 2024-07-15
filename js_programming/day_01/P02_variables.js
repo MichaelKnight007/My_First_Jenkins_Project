@@ -1,3 +1,5 @@
+console.log("---------------------------  let ------------------------------------------");
+
 // let name; // when you print, you'll get "undefined" -->unintentional absence
 
 let name=null // intentional absence
@@ -29,7 +31,7 @@ let isEmployed=true;
 console.log(isEmployed);
 console.log(typeof isEmployed);
 
-console.log("---------------------------------------------------------------------");
+console.log("---------------------------  constant ------------------------------------------");
 
 const NUMBERS_OF_MONTHS_IN_A_YEAR=12;
 const NUMBERS_OF_DAYS_IN_A_WEEK=7;
@@ -38,8 +40,7 @@ console.log(NUMBERS_OF_MONTHS_IN_A_YEAR); //12
 console.log(NUMBERS_OF_DAYS_IN_A_WEEK); // 7
 
 NUMBERS_OF_MONTHS_IN_A_YEAR=13;
-NUMBERS_OF_DAYS_IN_A_WEEK=8; // We'll not get any checked exception.
-//But when we run it, it's gonna give;
+NUMBERS_OF_DAYS_IN_A_WEEK=8; // Since we declared them as constant variable, we cannot re-assign a new data. We'll not get any checked exception if we re-assign a new data, but when we run it, it's gonna give exception.
 
 console.log(NUMBERS_OF_MONTHS_IN_A_YEAR); //TypeError
 console.log(NUMBERS_OF_DAYS_IN_A_WEEK); //TypeError
