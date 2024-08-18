@@ -1,0 +1,7 @@
+
+
+1. We need to import path from path;
+    "import path from 'path';"
+2. Then we need to create file path
+     "const filePath=path.join(__dirname, 'folderName', 'fileName');"
+3. Then we need to add 3 arguments; directoryName, folderName, fileName.
