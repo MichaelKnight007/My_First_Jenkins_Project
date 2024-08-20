@@ -1,0 +1,7 @@
+LIBRARY_URL = "https://library2.cydeo.com/"
+
+LIBRARY_STUDENT_USERNAME="student5@library"
+LIBRARY_STUDENT_PASSWORD="libraryUser"
+
+LIBRARY_ADMIN_USERNAME="librarian10@library"
+LIBRARY_ADMIN_PASSWORD="libraryUser"
